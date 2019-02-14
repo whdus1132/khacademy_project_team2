@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+}
+
+#main_div {
+	width: 1080px;
+	height: 900px;
+	background-color: red;
+	margin: auto;
+}
+
+#top_div {
+	width: 100%;
+	height: 30%;
+	background-color: yellow;
+}
+
+#mid_div {
+	width: 100%;
+	height: 50%;
+	background-color: green;
+}
+
+#bot_div {
+	width: 100%;
+	height: 20%;
+	background-color: gray;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul>li {
+	display: inline-block; 
+	
+}
+	
+li { 
+	margin : 0 0 0 0;
+	padding: 0 0 0 0;
+	border: 0;
+	float: center;
+}
+
+#main_img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding: 100px;
+}
